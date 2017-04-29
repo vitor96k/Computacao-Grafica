@@ -5,16 +5,18 @@ Esse repositório contem os principais códigos feitos para a disciplina de Comp
 
 <h2> Preto e Branco </h2>
 Código para converter uma imagem colorida em preto e branco.
+<br />Arquivo: pretobranco.cpp
+
+
 <br />
 <br />1) Acessar cada pixel
 <br />2) Acessar os canais RGB de cada pixel
 <br />3) Somar os valores desse canais e dividir por 3 (média)
 <br />4) Atribuir essa média aos canais RGB.
-<br />
-<br />Arquivo: pretobranco.cpp
 
 <h2> RGB e YIQ - Alterar Brilho</h2>
 Código para aumentar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
+<br />Arquivo: yiq.cpp
 <br />
 <br />1) Acessar cada pixel
 <br />2) Acessar os canais RGB de cada pixel
@@ -32,6 +34,3 @@ Código para aumentar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 	
 ![Alt text](/images/yiqrgb.png?raw=true "Modelo")
 <br />
-
-<br />
-<br />Arquivo: yiq.cpp
