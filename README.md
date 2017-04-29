@@ -15,7 +15,7 @@ Código para converter uma imagem colorida em preto e branco.
 <br />4) Atribuir essa média aos canais RGB.
 
 <h2> RGB e YIQ - Alterar Brilho</h2>
-Código para aumentar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
+Código para alterar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 <br />Arquivo: yiq.cpp
 <br />
 <br />1) Acessar cada pixel
