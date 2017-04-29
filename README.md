@@ -18,7 +18,12 @@ Código para aumentar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 <br />
 <br />1) Acessar cada pixel
 <br />2) Acessar os canais RGB de cada pixel
-<br />3) Converter o RGB para YIQ usando multiplicação de matrizes <br /> ![Alt text](/images/rgbyiq.png?raw=true "Imagem 1") <br />
+<br />3) Converter o RGB para YIQ usando multiplicação de matrizes
+
+<br />
+![Alt text](/images/rgbyiq.png?raw=true "Imagem 1")
+<br />
+
 <br />4) Alterar o canal Y que é responsavel pelo brilho, aumentando ou diminuindo o valor.
 <br />4) Converter o YIQ para RGB usando multiplicação de matrizes (imagem 2)
 <br />4) Atribuir essa conversao a imagem.
