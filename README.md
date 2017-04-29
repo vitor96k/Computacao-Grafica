@@ -4,7 +4,7 @@ Esse repositório contem os principais códigos feitos para a disciplina de Comp
 
 <h2> Preto e Branco </h2>
 Código para converter uma imagem colorida em preto e branco.
-<br /> Lógica:
+<br />
 <br />1) Acessar cada pixel
 <br />2) Acessar os canais RGB de cada pixel
 <br />3) Somar os valores desse canais e dividir por 3 (média)
