@@ -26,26 +26,12 @@ Código para aumentar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 <br />
 
 <br />4) Alterar o canal Y que é responsavel pelo brilho, aumentando ou diminuindo o valor.
-<br />4) Converter o YIQ para RGB usando multiplicação de matrizes <br />
+<br />4) Converter o YIQ para RGB usando multiplicação de matrizes e atribuir essa conversao ao pixel. <br />
 
 <br />
 	
 ![Alt text](/images/yiqrgb.png?raw=true "Modelo")
 <br />
 
-<br />4) Atribuir essa conversao a imagem.
 <br />
-<br />Arquivo: pretobranco.cpp
-
-<br />
-<br />Obs: Para as conversoes funcionarem os valores RGB e Y devem estar entre [0,1].
-
-
-
-
-
-
-
-
-<br />
-<br />Arquivo: pretobranco.cpp
+<br />Arquivo: yiq.cpp
