@@ -40,5 +40,16 @@ Código para dar zoom em uma imagem, o tamanho do zoom é definido pelo usuario.
 <br />Arquivo: ZoomQuad.cpp
 <br />
 <br />1) Criar uma matriz maior para salvar a imagem com zoom.
-<br />1) Acessar cada pixel
+<br />2) Acessar cada pixel
 <br />3) Inserir esse pixel em varias posicoes na matriz recentemente criada.
+
+<h2> Imagem Negativa </h2>
+Código para dar deixar a imagem negativa, invertendo os valores RGB.
+<br />Arquivo: negativ.cpp
+<br />
+<br />1) Acessar cada pixel
+<br />2) Acessar os canais RGB de cada pixel
+<br />3) Calcula o inverso de cada canal. Inverso = 255 - Canal.
+<br />4) Atribuir esse novo valor a imagem(pixel).
+
+
