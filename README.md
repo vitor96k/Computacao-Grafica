@@ -28,7 +28,7 @@ Código para alterar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 <br />
 
 <br />4) Alterar o canal Y que é responsavel pelo brilho, aumentando ou diminuindo o valor.
-<br />4) Converter o YIQ para RGB usando multiplicação de matrizes e atribuir essa conversao ao pixel. <br />
+<br />5) Converter o YIQ para RGB usando multiplicação de matrizes e atribuir essa conversao ao pixel. <br />
 
 <br />
 	
