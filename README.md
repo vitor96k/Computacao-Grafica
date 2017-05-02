@@ -34,3 +34,11 @@ Código para alterar o brilho da imagem ao converter RGB em YIQ e YIQ em RGB.
 	
 ![Alt text](/images/yiqrgb.png?raw=true "Modelo")
 <br />
+
+<h2> Zoom Quadriculado </h2>
+Código para dar zoom em uma imagem, o tamanho do zoom é definido pelo usuario.
+<br />Arquivo: ZoomQuad.cpp
+<br />
+<br />1) Criar uma matriz maior para salvar a imagem com zoom.
+<br />1) Acessar cada pixel
+<br />3) Inserir esse pixel em varias posicoes na matriz recentemente criada.
