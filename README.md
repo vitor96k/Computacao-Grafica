@@ -45,11 +45,23 @@ Código para dar zoom em uma imagem, o tamanho do zoom é definido pelo usuario.
 
 <h2> Imagem Negativa </h2>
 Código para dar deixar a imagem negativa, invertendo os valores RGB.
-<br />Arquivo: negativ.cpp
+<br />Arquivo: negativo.cpp
 <br />
 <br />1) Acessar cada pixel
 <br />2) Acessar os canais RGB de cada pixel
 <br />3) Calcula o inverso de cada canal. Inverso = 255 - Canal.
 <br />4) Atribuir esse novo valor a imagem(pixel).
+
+<h2> Zoom Linear </h2>
+Código para dar zoom em uma imagem utilizando interpolação.
+<br />Arquivo: ZoomLinear.cpp
+<br />
+<br />1) Criar uma matriz maior para salvar a imagem com zoom.
+<br />2) Acessar cada pixel
+<br />3) Distribuir os pixels uniformemente na nova matriz.
+<br />4) Para cada espaço vazio na nova matriz atribuir um pixel apartir de um calculo entre os vizinhos.
+
+
+
 
 
