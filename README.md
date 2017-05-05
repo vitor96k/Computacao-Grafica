@@ -42,6 +42,10 @@ Código para dar zoom em uma imagem, o tamanho do zoom é definido pelo usuario.
 <br />1) Criar uma matriz maior para salvar a imagem com zoom.
 <br />2) Acessar cada pixel
 <br />3) Inserir esse pixel em varias posicoes na matriz recentemente criada.
+<br />
+	
+![Alt text](/images/zoomQuad.png?raw=true "Modelo")
+<br />
 
 <h2> Imagem Negativa </h2>
 Código para dar deixar a imagem negativa, invertendo os valores RGB.
@@ -52,7 +56,7 @@ Código para dar deixar a imagem negativa, invertendo os valores RGB.
 <br />3) Calcula o inverso de cada canal. Inverso = 255 - Canal.
 <br />4) Atribuir esse novo valor a imagem(pixel).
 
-<h2> Zoom Linear </h2>
+<h2> Zoom In (Linear) </h2>
 Código para dar zoom em uma imagem utilizando interpolação.
 <br />Arquivo: ZoomLinear.cpp
 <br />
@@ -60,6 +64,23 @@ Código para dar zoom em uma imagem utilizando interpolação.
 <br />2) Acessar cada pixel
 <br />3) Distribuir os pixels uniformemente na nova matriz.
 <br />4) Para cada espaço vazio na nova matriz atribuir um pixel apartir de um calculo entre os vizinhos.
+<br />
+	
+![Alt text](/images/zoomIn.png?raw=true "Modelo")
+<br />
+
+<h2> Zoom Out - Diminuir</h2>
+Código para diminuir o tamanho da imagem utilizando interpolação, o tamanho do zoom é definido pelo usuario.
+<br />Arquivo: ZoomOut.cpp
+<br />
+<br />1) Criar uma matriz menor para salvar a imagem com zoom.
+<br />2) Acessar um conjunto de pixels.
+<br />3) Calcula a media desse conjunto de pixels
+<br />4) Atribuir essa média a nova matriz.
+<br />
+	
+![Alt text](/images/zoomOu.png?raw=true "Modelo")
+<br />
 
 
 
