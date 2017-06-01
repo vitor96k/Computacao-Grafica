@@ -82,6 +82,32 @@ Código para diminuir o tamanho da imagem utilizando interpolação, o tamanho d
 ![Alt text](/images/zoomOu.png?raw=true "Modelo")
 <br />
 
+<h2> Equalizar Histograma</h2>
+Código para diminuir o tamanho da imagem utilizando interpolação, o tamanho do zoom é definido pelo usuario.
+<br />Arquivo: ZoomOut.cpp
+<br />
+<br />1) Criar uma matriz menor para salvar a imagem com zoom.
+<br />2) Acessar um conjunto de pixels.
+<br />3) Calcula a media desse conjunto de pixels
+<br />4) Atribuir essa média a nova matriz.
+<br />
+	
+![Alt text](/images/zoomOu.png?raw=true "Modelo")
+<br />
+
+<h2> Equalizar Histograma HSV (canal V)</h2>
+Código para diminuir o tamanho da imagem utilizando interpolação, o tamanho do zoom é definido pelo usuario.
+<br />Arquivo: ZoomOut.cpp
+<br />
+<br />1) Criar uma matriz menor para salvar a imagem com zoom.
+<br />2) Acessar um conjunto de pixels.
+<br />3) Calcula a media desse conjunto de pixels
+<br />4) Atribuir essa média a nova matriz.
+<br />
+	
+![Alt text](/images/zoomOu.png?raw=true "Modelo")
+<br />
+
 
 
 
